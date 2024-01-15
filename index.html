@@ -7,17 +7,7 @@
   <title>Bootstrap Website</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <style>
-    /* Add your custom styles here */
-    .custom-background {
-      background-image: url('/img/photo01.png');
-      /* Replace 'your-background-image.jpg' with the path to your image */
-      background-size: cover;
-      background-position: center center;
-      height: 90vh;
-      /* Set an appropriate height for your container */
-    }
-  </style>
+  <link rel="stylesheet" href="styles.scss">
 </head>
 
 <body>
@@ -70,7 +60,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col">
-            <h1 class="text-light text-uppercase fw-bold">Lorem ipsum dolor sit</h1>
+            <h1 class="text-light text-uppercase fw-bold fs-1">Lorem ipsum dolor sit</h1>
             <p class="text-light my-4 w-75">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Aliquam
               inventore
@@ -90,23 +80,26 @@
     <section>
       <div class="container text-center d-flex">
         <div class="row bg-light">
-          <div class="col p-4 bg-white">
-            <h3>Lorem, ipsum dolor</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quidem, reprehenderit, dicta, quisquam
+          <div class="col-md p-4 bg-danger p-4">
+            <h3 class="fw-bold fs-2">Lorem, ipsum dolor</h3>
+            <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quidem, reprehenderit, dicta,
+              quisquam
               soluta beatae debitis iusto quo expedita libero voluptatibus. Vitae saepe nostrum eos ea assumenda eius
               magni quaerat!</p>
             <button class="rounded py-2 px-5 border border-0 me-2 text-uppercase fw-medium">Read More</button>
           </div>
-          <div class="col p-4 bg-white">
-            <h3>Lorem, ipsum dolor</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quidem, reprehenderit, dicta, quisquam
+          <div class="col-md p-4 bg-danger p-4">
+            <h3 class="fw-bold fs-2">Lorem, ipsum dolor</h3>
+            <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quidem, reprehenderit, dicta,
+              quisquam
               soluta beatae debitis iusto quo expedita libero voluptatibus. Vitae saepe nostrum eos ea assumenda eius
               magni quaerat!</p>
             <button class="rounded py-2 px-5 border border-0 me-2 text-uppercase fw-medium">Read More</button>
           </div>
-          <div class="col p-4 bg-white">
-            <h3>Lorem, ipsum dolor</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quidem, reprehenderit, dicta, quisquam
+          <div class="col-md p-4 bg-danger p-4">
+            <h3 class="fw-bold fs-2">Lorem, ipsum dolor</h3>
+            <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quidem, reprehenderit, dicta,
+              quisquam
               soluta beatae debitis iusto quo expedita libero voluptatibus. Vitae saepe nostrum eos ea assumenda eius
               magni quaerat!</p>
             <button class="rounded py-2 px-5 border border-0 me-2 text-uppercase fw-medium">Read More</button>
@@ -118,18 +111,20 @@
     <section>
       <div class="container text-center bg-primary">
         <div class="row">
-          <div class="col">
-            <h2>Lorem, ipsum dolor</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam nostrum, incidunt voluptas architecto
+          <div class="col-md p-4">
+            <h2 class="fw-bold fs-2">Lorem, ipsum dolor</h2>
+            <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam nostrum, incidunt voluptas
+              architecto
               nobis ipsam autem soluta, et ullam doloremque, aliquid ratione dicta doloribus distinctio laudantium?
               Nostrum nam dolore accusamus?</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem dolores explicabo alias deserunt
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem dolores explicabo
+              alias deserunt
               recusandae? Porro nesciunt incidunt fugit perspiciatis exercitationem pariatur saepe. Pariatur, esse.
               Illum consectetur excepturi delectus rem nostrum!</p>
-            <button>Read More</button>
+            <button class="rounded py-2 px-5 border border-0 me-2 text-uppercase fw-medium">Read More</button>
           </div>
           <div class="col">
-            <img src="" alt="">
+            <img src="./img/photo01.png" alt="" class="rounded img-fluid">
           </div>
         </div>
       </div>
@@ -139,14 +134,16 @@
       <div class="container text-center bg-primary">
         <div class="row">
           <div class="col">
-            <img src="" alt="">
+            <img src="./img/photo01.png" alt="" class="rounded img-fluid">
           </div>
-          <div class="col">
-            <h2>Lorem, ipsum dolor</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam nostrum, incidunt voluptas architecto
+          <div class="col-md p-4">
+            <h2 class="fw-bold fs-2">Lorem, ipsum dolor</h2>
+            <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam nostrum, incidunt voluptas
+              architecto
               nobis ipsam autem soluta, et ullam doloremque, aliquid ratione dicta doloribus distinctio laudantium?
               Nostrum nam dolore accusamus?</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem dolores explicabo alias deserunt
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem dolores explicabo
+              alias deserunt
               recusandae? Porro nesciunt incidunt fugit perspiciatis exercitationem pariatur saepe. Pariatur, esse.
               Illum consectetur excepturi delectus rem nostrum!</p>
             <button>Read More</button>
